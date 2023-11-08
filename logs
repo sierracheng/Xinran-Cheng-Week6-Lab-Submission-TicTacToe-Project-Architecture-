@@ -1,0 +1,31 @@
+PS C:\Users\admin\Desktop\UW\TECHIN509\techin509b-tictactoe-main\techin509b-tictactoe-main> & C:/Users/admin/AppData/Local/Programs/Python/Python311/python.exe c:/Users/admin/Desktop/UW/TECHIN509/techin509b-tictactoe-main/techin509b-tictactoe-main/tests.py
+X
+O
+None
+PS C:\Users\admin\Desktop\UW\TECHIN509\techin509b-tictactoe-main\techin509b-tictactoe-main> & C:/Users/admin/AppData/Local/Programs/Python/Python311/python.exe c:/Users/admin/Desktop/UW/TECHIN509/techin509b-tictactoe-main/techin509b-tictactoe-main/cli.py  
+TODO: take a turn!
+[[None, None, None], [None, None, None], [None, None, None]]
+Enter the position of (x,y), split with comma: & C:/Users/admin/AppData/Local/Programs/Python/Python311/python.exe c:/Users/admin/Desktop/UW/TECHIN509/techin509b-tictactoe-main/techin509b-tictactoe-main/tests.py
+Traceback (most recent call last):
+  File "c:\Users\admin\Desktop\UW\TECHIN509\techin509b-tictactoe-main\techin509b-tictactoe-main\cli.py", line 19, in <module>
+    x, y = input("Enter the position of (x,y), split with comma: ").split(",")
+    ^^^^
+ValueError: not enough values to unpack (expected 2, got 1)
+PS C:\Users\admin\Desktop\UW\TECHIN509\techin509b-tictactoe-main\techin509b-tictactoe-main> & C:/Users/admin/AppData/Local/Programs/Python/Python311/python.exe c:/Users/admin/Desktop/UW/TECHIN509/techin509b-tictactoe-main/techin509b-tictactoe-main/cli.py
+Traceback (most recent call last):
+  File "c:\Users\admin\Desktop\UW\TECHIN509\techin509b-tictactoe-main\techin509b-tictactoe-main\cli.py", line 16, in <module>
+    logging.basicConfig(filename=log_filename, level=logging.INFO)
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\logging\__init__.py", 
+line 2050, in basicConfig
+    h = FileHandler(filename, mode,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\logging\__init__.py", 
+line 1181, in __init__
+    StreamHandler.__init__(self, self._open())
+                                 ^^^^^^^^^^^^
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\logging\__init__.py", 
+line 1213, in _open
+    return open_func(self.baseFilename, self.mode,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\admin\\Desktop\\UW\\TECHIN509\\techin509b-tictactoe-main\\techin509b-tictactoe-main\\logs\\game_20231107_181523.log'
+PS C:\Users\admin\Desktop\UW\TECHIN509\techin509b-tictactoe-main\techin509b-tictactoe-main>
